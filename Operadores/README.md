@@ -1,18 +1,45 @@
-## Getting Started
+# Operadores em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Operadores Aritméticos
+Os operadores aritméticos são usados para realizar operações matemáticas básicas. Em Java, temos:
+- **Adição (+)**: Soma dois valores.
+- **Subtração (-)**: Subtrai um valor do outro.
+- **Multiplicação (*)**: Multiplica dois valores.
+- **Divisão (/)**: Divide um valor pelo outro.
+- **Módulo (%)**: Retorna o resto da divisão de dois valores.
 
-## Folder Structure
+Exemplo:
+```java
+int a = 10;
+int b = 5;
+int soma = a + b; // 15
+int subtracao = a - b; // 5
+int multiplicacao = a * b; // 50
+int divisao = a / b; // 2
+int modulo = a % b; // 0
+```
+## Concatenação
+- A concatenação em Java é usada para unir strings. O operador de concatenação é o + usado em textos (Strings).
 
-The workspace contains two folders by default, where:
+Exemplo:
+```java
+String primeiroNome = "Breno";
+String sobrenome = "Figueira";
+String nomeCompleto = nome + " " + sobrenome; // "Breno Figueira"
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Operadores Unários
+Os operadores unários realizam operações em um único operando. Em Java, temos:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Incremento (++)**: Aumenta o valor do operando em 1.
+- **Decremento (–)**: Diminui o valor do operando em 1.
+- **Unário positivo (+)**: Indica um valor positivo (geralmente implícito).
+- **Unário negativo (-)**: Inverte o sinal do valor.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Exemplo:
+```java
+int x = 10;
+x++; // 11
+x--; // 10
+int y = -x; // -10
+```
