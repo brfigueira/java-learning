@@ -6,28 +6,58 @@ public class Operadores {
         String ultimoNome  = "Figueira";
         System.out.println(primeiroNome + " " + ultimoNome);
 
-        String concatenacao = "?";
+        //String concatenacao = "?";
 
-        concatenacao = 1+1+1+"1";
+        //concatenacao = 1+1+1+"1";
 
-        System.out.println(concatenacao);
+        //System.out.println(concatenacao);
 
-        concatenacao = 1+"1"+1+1;
+        //concatenacao = 1+"1"+1+1;
 
-        System.out.println(concatenacao);
+        //System.out.println(concatenacao);
 
-        concatenacao = 1+"1"+1+"1";
+        //concatenacao = 1+"1"+1+"1";
 
-        System.out.println(concatenacao);
+        //System.out.println(concatenacao);
 
-        concatenacao = "1"+1+1+1;
+        //concatenacao = "1"+1+1+1;
 
-        System.out.println(concatenacao);
+        //System.out.println(concatenacao);
 
-        concatenacao = "1"+(1+1+1);
+        //concatenacao = "1"+(1+1+1);
 
-        System.out.println(concatenacao);
+        //System.out.println(concatenacao);
 
         // Operadores unários
+
+        int numero = 5;
+
+        System.out.println( - numero);
+
+        System.out.println(numero);
+
+        System.out.println(++ numero);
+
+        System.out.println(-- numero);
+
+        numero = - numero;
+
+        System.out.println(numero);
+
+        System.out.println(+ numero);
+
+        System.out.println(- numero);
+
+        numero = + numero;
+        
+        System.out.println(numero);
+
+        System.out.println( - numero);
+
+        numero = numero * -1;
+
+        System.out.println(numero);
+
+        
     }
 }

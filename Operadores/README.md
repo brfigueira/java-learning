@@ -32,9 +32,10 @@ String nomeCompleto = nome + " " + sobrenome; // "Breno Figueira"
 Os operadores unários realizam operações em um único operando. Em Java, temos:
 
 - **Incremento (++)**: Aumenta o valor do operando em 1.
-- **Decremento (–)**: Diminui o valor do operando em 1.
+- **Decremento (–-)**: Diminui o valor do operando em 1.
 - **Unário positivo (+)**: Indica um valor positivo (geralmente implícito).
 - **Unário negativo (-)**: Inverte o sinal do valor.
+- **Unário de negação(!)**: nefa o valor de uma expressão booleana.
 
 Exemplo:
 ```java
