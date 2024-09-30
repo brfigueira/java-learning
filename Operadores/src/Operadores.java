@@ -94,10 +94,15 @@ public class Operadores {
 
         System.out.println(!(valor >= 100));*/
         
+        // Operador ternário
 
+        int a, b;
 
-
-
+        a = 4;
+        b = 8;
+        String resultado = a==b ?"verdadeiro" : "falso";
+        
+        System.out.println(resultado);
 
     }
 }

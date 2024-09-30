@@ -67,10 +67,32 @@ O operador ternário é uma forma concisa de expressar uma condição que retorn
 
 O operador ternário é ideal para situações onde você precisa retornar um valor com base em uma condição simples. No entanto, para condições mais complexas, é recomendável usar estruturas if-else tradicionais para manter a clareza do código.
 
-#### Sintaxe
-
-1. A sintaxe do operador ternário é a seguinte:
+Exemplo:
 
 ```java
  condição ? valor_se_verdadeiro : valor_se_falso;
+```
+
+## Operadores Relacionais
+
+Os operadores relacionais são usados para comparar dois valores e determinar a relação entre eles. Esses operadores retornam um valor booleano (`true` ou `false`) com base no resultado da comparação. Aqui estão os operadores relacionais básicos em Java:
+
+- **== (igual a)**: Verifica se dois valores são iguais.
+- **!= (diferente de)**: Verifica se dois valores são diferentes.
+- **> (maior que)**: Verifica se um valor é maior que o outro.
+- **< (menor que)**: Verifica se um valor é menor que o outro.
+- **>= (maior ou igual a)**: Verifica se um valor é maior ou igual ao outro.
+- **<= (menor ou igual a)**: Verifica se um valor é menor ou igual ao outro.
+
+Exemplo:
+```java
+int a = 10;
+int b = 20;
+
+System.out.println("a == b: " + (a == b)); // false
+System.out.println("a != b: " + (a != b)); // true
+System.out.println("a > b: " + (a > b)); // false
+System.out.println("a < b: " + (a < b)); // true
+System.out.println("a >= b: " + (a >= b)); // false
+System.out.println("a <= b: " + (a <= b)); // true
 ```
