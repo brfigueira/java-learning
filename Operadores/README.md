@@ -43,4 +43,34 @@ int x = 10;
 x++; // 11
 x--; // 10
 int y = -x; // -10
+boolean variavel = ! false;
+```
+
+## Operador Ternário em Java
+
+O operador ternário é uma forma concisa de expressar uma condição que retorna um valor. Ele é uma alternativa ao uso da estrutura `if-else` e pode tornar o código mais legível e compacto.
+- **condição**: Uma expressão booleana que é avaliada.
+- **valor_se_verdadeiro**: O valor retornado se a condição for verdadeira.
+- **valor_se_falso**: O valor retornado se a condição for falsa.
+
+#### Vantagens
+
+1. **Conciso**: Reduz a quantidade de código necessário para expressar uma condição simples.
+2. **Legível**: Pode tornar o código mais fácil de ler quando usado corretamente.
+
+#### Desvantagens
+
+1. **Complexidade**: Pode tornar o código mais difícil de entender se usado em condições complexas.
+2. **Legibilidade**: Em casos de condições aninhadas, pode prejudicar a legibilidade do código.
+
+#### Quando Usar
+
+O operador ternário é ideal para situações onde você precisa retornar um valor com base em uma condição simples. No entanto, para condições mais complexas, é recomendável usar estruturas if-else tradicionais para manter a clareza do código.
+
+#### Sintaxe
+
+1. A sintaxe do operador ternário é a seguinte:
+
+```java
+ condição ? valor_se_verdadeiro : valor_se_falso;
 ```

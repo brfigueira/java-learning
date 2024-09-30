@@ -2,35 +2,35 @@ public class Operadores {
     // Os operadores aritméticos são: adição(+), subtração(-), multiplicação(*), divisão(/).
     public static void main(String[] args) {
         // O operador aritmético de adição quando usado em strings cria a concatenação dessas duas palavras.
-        String primeiroNome = "Breno";
+        /* String primeiroNome = "Breno";
         String ultimoNome  = "Figueira";
-        System.out.println(primeiroNome + " " + ultimoNome);
+        System.out.println(primeiroNome + " " + ultimoNome);*/
 
-        //String concatenacao = "?";
+        /*String concatenacao = "?";
 
-        //concatenacao = 1+1+1+"1";
+        concatenacao = 1+1+1+"1";
 
-        //System.out.println(concatenacao);
+        System.out.println(concatenacao);
 
-        //concatenacao = 1+"1"+1+1;
+        concatenacao = 1+"1"+1+1;
 
-        //System.out.println(concatenacao);
+        System.out.println(concatenacao);
 
-        //concatenacao = 1+"1"+1+"1";
+        concatenacao = 1+"1"+1+"1";
 
-        //System.out.println(concatenacao);
+        System.out.println(concatenacao);
 
-        //concatenacao = "1"+1+1+1;
+        concatenacao = "1"+1+1+1;
 
-        //System.out.println(concatenacao);
+        System.out.println(concatenacao);
 
-        //concatenacao = "1"+(1+1+1);
+        concatenacao = "1"+(1+1+1);
 
-        //System.out.println(concatenacao);
+        System.out.println(concatenacao);*/
 
         // Operadores unários
 
-        int numero = 5;
+        /*int numero = 5;
 
         System.out.println( - numero);
 
@@ -56,8 +56,48 @@ public class Operadores {
 
         numero = numero * -1;
 
+        System.out.println( - numero);*/
+
+        // Incrementação de repetição
+
+        /* int numero = 3;
+        
+        numero = numero +1;
+
         System.out.println(numero);
 
+        numero++;
+
+        System.out.println(numero);
+
+        System.out.println(++numero);
+
+        System.out.println(numero++);
+
+        System.out.println(++numero);
+
+        ++numero;
+
+        System.out.println(numero);*/
+
+        // Unário de negação
+
+        /*boolean variavelTeste = true;
+
+        System.out.println(variavelTeste);
+
+        System.out.println(!variavelTeste);
+
+        int valor = 90;
+
+        System.out.println(valor >= 100);
+
+        System.out.println(!(valor >= 100));*/
         
+
+
+
+
+
     }
 }
