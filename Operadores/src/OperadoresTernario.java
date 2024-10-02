@@ -1,4 +1,4 @@
-public class OperadoresTernarios {
+public class OperadoresTernario {
     // Os operadores aritméticos são: adição(+), subtração(-), multiplicação(*), divisão(/).
     public static void main(String[] args) {
         

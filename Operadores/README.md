@@ -96,3 +96,25 @@ System.out.println("a < b: " + (a < b)); // true
 System.out.println("a >= b: " + (a >= b)); // false
 System.out.println("a <= b: " + (a <= b)); // true
 ```
+
+## Operadores Lógicos em Java
+
+Os operadores lógicos são usados para realizar operações em valores booleanos (verdadeiro ou falso). Eles são fundamentais na programação para controlar o fluxo de execução com base em condições. Abaixo estão os principais operadores lógicos em Java:
+
+#### AND (&&)
+O operador `AND` retorna verdadeiro se **ambos** os operandos forem verdadeiros.
+EXEMPLO:
+```java
+boolean a = true;
+boolean b = false;
+boolean resultado = a && b;  // resultado será false
+```
+#### OR (||)
+O operador OR retorna verdadeiro se pelo menos um dos operandos for verdadeiro.
+EXEMPLO:
+```java
+boolean a = true;
+boolean b = false;
+boolean resultado = a || b;  // resultado será true
+```
+
